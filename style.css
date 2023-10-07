@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: hsl(0, 0%, 81%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    flex-direction: row;
+height: 100vh;
+max-width: 100vw;
+}
+.container{
+    display: flex;
+    /* background-color: aquamarine; */
+    height: 87vh;
+    width: 840px;
+    flex-direction: column;
+    
+}
+.full{
+
+}
+.line{
+display: flex;
+flex-direction: row;
+}
+.up{
+    display: flex;
+    /* background-color: aquamarine; */
+    width: 840px;
+}
+.first{
+    background-color:  hsl(263, 55%, 52%);
+    height: 270px;
+    border-radius: 10px;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+}
+.quote {
+    height: 100px;
+    width: 100px;
+  position: absolute;
+  margin: 0 0 0 360px;
+}
+.heading{
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+}
+.heading5{
+    display: flex;
+    flex-direction: row;
+}
+.heading5 img{
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    margin: 25px 0 0 30px;
+    border: 2px solid hsl(263, 55%, 52%);
+}
+.heading img{
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    margin: 25px 0 0 30px;
+    border: 2px solid hsl(0, 0%, 81%);
+}
+.name{
+
+    display: flex;
+    flex-direction: column;
+    color: hsl(0, 0%, 81%);
+    margin: 27px 0 0 15px;
+    font-size: 10px;
+}
+.stat{
+    color: hsl(0, 0%, 81%);
+    opacity: 50%;
+    font-size: 8px;
+}
+.paraone{
+    /* background-color: aqua; */
+    margin: 20px 0 0 30px;
+width: 490px;
+font-weight: 700;
+font-size: 20px;
+z-index: 1;
+}
+.paraone p{
+    font-weight: 700;
+font-size: 20px;
+    width: 495px;
+    color: hsl(0, 0%, 100%);
+}
+.paratwo{
+    /* background-color: aqua; */
+    margin: 20px 0 0 30px;
+width: 480px;
+font-weight: 700;
+font-size: 20px;
+}
+.paratwo p{
+    font-weight: 500;
+font-size: 13px;
+    /* width: 495px; */
+    color: hsl(0, 0%, 100%);
+    opacity: 70%;
+}
+.second{
+    background-color:  hsl(217, 19%, 35%);
+    height: 270px;
+    border-radius: 10px;
+    width: 270px;
+    margin: 0 0 0 20px ;
+}
+.para3{
+    /* background-color: aqua; */
+    font-size: 20px ;
+    font-weight: 700;
+    margin: 20px 0 0 30px ;
+    width: 200px;
+    color: white;
+}
+.para4{
+    font-size: 13px ;
+    font-weight: 500;
+    margin: 20px 0 0 30px ;
+    width: 190px;
+    color: white;
+    opacity: 70%;
+}
+.parapatrick{
+  /* background-color: aqua; */
+  font-size: 20px ;
+  font-weight: 700;
+  margin: 20px 0 0 30px ;
+  width: 500px;
+  color: white;
+}
+.parapatrick2{
+    font-size: 13px ;
+    font-weight: 500;
+    margin: 20px 0 0 30px ;
+    width: 470px;
+    color: white;
+    opacity: 70%;
+}
+.name4{
+    display: flex;
+    flex-direction: column;
+    color: hsl(0, 0%, 0%);
+    margin: 27px 0 0 15px;
+    font-size: 10px;
+}
+.stat4{
+    color: hsl(0, 0%, 0%);
+    opacity: 50%;
+    font-size: 8px;
+}
+.heading4{
+    display: flex;
+    flex-direction: row;
+}
+.heading4 img{
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    margin: 25px 0 0 30px;
+    border: 2px solid hsl(0, 0%, 100%);
+}
+.parajea{
+     /* background-color: aqua; */
+  font-size: 20px ;
+  font-weight: 700;
+  margin: 20px 0 0 30px ;
+  width: 10 px;
+  color: hsl(217, 19%, 35%);
+}
+.parajea p{
+    font-weight: 700;
+font-size: 20px;
+    width: 170px;
+    
+}
+.parajea2{
+    font-size: 13px ;
+    font-weight: 500;
+    margin: 20px 0 0 30px ;
+    width: 190px;
+    color: hsl(217, 19%, 35%);
+    opacity: 70%;
+}
+.fourth{
+    background-color:  hsl(0, 0%, 100%);
+    border-radius: 10px;
+    width: 270px;
+   height: 270px;
+}
+.fifth{
+    background-color:  hsl(219, 29%, 14%);
+    border-radius: 10px;
+    width: 550px;
+   height: 270px;
+margin: 0 0 0 20px;
+}
+.down{
+    display: flex;
+/* background-color: gold; */
+height: 80vh;
+    width: 840px;
+
+ margin: 20px 0 0 0 ; 
+}
+
+
+.container2{
+    background-color: white;
+    height: 87vh;
+    border-radius: 10px;
+    width: 250px;
+    margin: 0 0 0 20px; 
+} 
+.parakira{
+      /* background-color: aqua; */
+  font-size: 20px ;
+  font-weight: 700;
+  margin: 20px 0 0 30px ;
+  width: 10 px;
+  color: hsl(217, 19%, 35%);
+}
+.parakira2{
+    font-size: 13px ;
+    font-weight: 500;
+    margin: 20px 0 0 30px ;
+    width: 190px;
+    color: hsl(217, 19%, 35%);
+    opacity: 70%;
+}
